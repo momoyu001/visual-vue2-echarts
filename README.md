@@ -1,4 +1,4 @@
-# vue-visualization
+# visual-vue2-echarts
 
 前端可视化学习
 
@@ -6,8 +6,6 @@ ECharts学习笔记
 
 - echarts官网示例，会先把常用的自己写一遍
 - 再结合实际场景多多练习
-
-D3学习笔记
 
 ## Project setup
 ```
