@@ -1,13 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <BasicLineChart></BasicLineChart>
+    <BasicCandleStick></BasicCandleStick>
+    <SmoothedLineChart></SmoothedLineChart>
+    <BasicAreaChart></BasicAreaChart>
+    <StackedLineChart></StackedLineChart>
   </div>
 </template>
 
 <script>
+import BasicLineChart from "./components/BasicLineChart.vue";
+import StackedLineChart from "./components/StackedLineChart.vue";
 export default {
-  name: 'App'
+    name: "App",
+    components: { BasicLineChart, StackedLineChart }
 }
 </script>
 

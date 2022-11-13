@@ -16,6 +16,7 @@ if (context && context.keys()) {
 // 引入echarts，注册位全局的对象
 import * as echarts from 'echarts';
 Vue.prototype.$echarts = echarts;
+Vue.prototype.$echartsCommonStyle = 'width: 500px; height: 300px';
 
 new Vue({
   render: h => h(App),
